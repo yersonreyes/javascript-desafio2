@@ -73,6 +73,7 @@ h1 {
 
 .card {
   height: 360px;
+  cursor: pointer;
 }
 
 .newslater {
@@ -103,7 +104,9 @@ h1 {
   font-family: var(--font2);
   font-size: 37px;
 }
-
+.cambio {
+  display: none;
+}
 @media screen and (max-width: 700px) {
   h1 {
     font-size: 25px;
