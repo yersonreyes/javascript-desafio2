@@ -1,0 +1,157 @@
+:root {
+  --gris30: #373a3c;
+  --gris10: #dddddd;
+  --back: #000;
+  --white: #fff;
+  --danger: #dc3545;
+  --font1: "Cabin", sans-serif;
+  --font2: "Lobster", cursive;
+}
+
+body {
+  font-family: var(--font1);
+  color: var(--gris30);
+}
+
+.logo {
+  font-family: var(--font2);
+  font-size: 37px;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.carousel-indicators {
+  bottom: -75px;
+}
+
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #373a3c31;
+}
+
+.carousel-indicators li.active {
+  background-color: #373a3c;
+}
+
+.recetas {
+  margin-top: 75px;
+  padding-top: 25px;
+  border-top: 2px solid var(--gris30);
+}
+
+.recetas h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.recetas p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.relacionadas {
+  border-top: 2px solid var(--gris30);
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+
+.relacionadas h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.card {
+  height: 360px;
+}
+
+.newslater {
+  padding: 100px;
+}
+
+.newslater .btn {
+  width: 233px;
+}
+
+.newslater h2 {
+  font-size: 40px;
+}
+
+.newslater p {
+  font-size: 30px;
+}
+
+.newslater span {
+  font-family: var(--font2);
+}
+
+.footer {
+  padding: 30px;
+}
+
+.footer h2 {
+  font-family: var(--font2);
+  font-size: 37px;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  #carouselExampleIndicators {
+    display: none;
+  }
+
+  .recetas {
+    padding: 35px;
+    margin: 0;
+    border-top: none;
+  }
+
+  .recetas h2 {
+    font-size: 16px;
+  }
+
+  .recetas p {
+    font-size: 16px;
+  }
+
+  .relacionadas {
+    width: calc(100vw - 70px);
+  }
+
+  .relacionadas h2 {
+    font-size: 25px;
+  }
+
+  .newslater {
+    padding: 100px 0px;
+  }
+
+  .newslater h2 {
+    font-size: 30px;
+  }
+
+  .newslater p {
+    font-size: 20px;
+  }
+
+  .footer {
+    padding: 30px 0px;
+  }
+}
